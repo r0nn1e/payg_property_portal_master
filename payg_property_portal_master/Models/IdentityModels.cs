@@ -29,5 +29,7 @@ namespace payg_property_portal_master.Models
         {
             return new ApplicationDbContext();
         }
+
+        public System.Data.Entity.DbSet<payg_property_portal_master.Models.Properties> Properties { get; set; }
     }
 }

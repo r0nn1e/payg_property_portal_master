@@ -1,0 +1,304 @@
+﻿@model payg_property_portal_master.Models.Properties
+
+@{
+    ViewBag.Title = "Delete";
+}
+
+<h2>Delete</h2>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>Properties</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.mls_id)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.mls_id)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.title)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.title)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.type)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.type)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.s_type)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.s_type)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.s_type_freq)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.s_type_freq)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.listing_branch)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.listing_branch)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.name_number)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.name_number)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.block_building)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.block_building)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.street)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.street)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.area)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.area)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.district)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.district)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.town_city)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.town_city)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.province)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.province)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.post_code)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.post_code)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.country)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.country)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.show_address)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.show_address)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.locastate)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.locastate)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.latitude)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.latitude)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.longitude)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.longitude)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.gbase_address)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.gbase_address)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.concat_address)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.concat_address)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.short_description)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.short_description)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.full_description)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.full_description)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.sale_price)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.sale_price)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.rental_price)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.rental_price)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.rental_frequency)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.rental_frequency)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.call_for_price)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.call_for_price)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.bedrooms)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.bedrooms)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.bathrooms)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.bathrooms)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.plot_sqft)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.plot_sqft)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.build_sqft)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.build_sqft)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.year_built)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.year_built)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.heating)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.heating)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.air_con)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.air_con)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.garage)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.garage)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Delete" class="btn btn-default" /> |
+            @Html.ActionLink("Back to List", "Index")
+        </div>
+    }
+</div>

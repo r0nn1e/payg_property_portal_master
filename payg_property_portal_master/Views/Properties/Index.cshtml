@@ -1,0 +1,237 @@
+﻿@model IEnumerable<payg_property_portal_master.Models.Properties>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.mls_id)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.title)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.type)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.s_type)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.s_type_freq)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.listing_branch)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.name_number)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.block_building)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.street)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.area)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.district)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.town_city)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.province)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.post_code)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.country)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.show_address)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.locastate)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.latitude)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.longitude)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.gbase_address)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.concat_address)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.short_description)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.full_description)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.sale_price)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.rental_price)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.rental_frequency)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.call_for_price)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.bedrooms)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.bathrooms)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.plot_sqft)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.build_sqft)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.year_built)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.heating)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.air_con)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.garage)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.mls_id)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.title)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.type)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.s_type)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.s_type_freq)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.listing_branch)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.name_number)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.block_building)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.street)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.area)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.district)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.town_city)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.province)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.post_code)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.country)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.show_address)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.locastate)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.latitude)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.longitude)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.gbase_address)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.concat_address)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.short_description)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.full_description)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.sale_price)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.rental_price)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.rental_frequency)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.call_for_price)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.bedrooms)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.bathrooms)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.plot_sqft)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.build_sqft)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.year_built)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.heating)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.air_con)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.garage)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.id }) |
+            @Html.ActionLink("Details", "Details", new { id=item.id }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.id })
+        </td>
+    </tr>
+}
+
+</table>
