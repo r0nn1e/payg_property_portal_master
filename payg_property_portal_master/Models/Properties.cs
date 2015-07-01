@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace payg_property_portal_master.Models
 {
-    class Properties
+    public class Properties
     {
 
         public int id { get; set; }

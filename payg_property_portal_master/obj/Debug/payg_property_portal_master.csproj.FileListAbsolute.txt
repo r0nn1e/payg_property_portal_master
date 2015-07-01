@@ -74,3 +74,6 @@ C:\git_repos\payg_property_portal_master\payg_property_portal_master\bin\Microso
 C:\git_repos\payg_property_portal_master\payg_property_portal_master\obj\Debug\ApplicationInsights.config
 C:\git_repos\payg_property_portal_master\payg_property_portal_master\obj\Debug\payg_property_portal_master.dll
 C:\git_repos\payg_property_portal_master\payg_property_portal_master\obj\Debug\payg_property_portal_master.pdb
+C:\git_repos\payg_property_portal_master\payg_property_portal_master\obj\Debug\payg_property_portal_master.Migrations.InitialCreate.resources
+C:\git_repos\payg_property_portal_master\payg_property_portal_master\obj\Debug\payg_property_portal_master.csproj.GenerateResource.Cache
+C:\git_repos\payg_property_portal_master\payg_property_portal_master\obj\Debug\payg_property_portal_master.Migrations.azure.resources
