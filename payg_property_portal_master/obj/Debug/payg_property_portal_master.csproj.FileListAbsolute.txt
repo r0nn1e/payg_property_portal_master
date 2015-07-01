@@ -71,7 +71,6 @@ C:\git_repos\payg_property_portal_master\payg_property_portal_master\bin\Microso
 C:\git_repos\payg_property_portal_master\payg_property_portal_master\bin\Microsoft.Owin.Security.Google.xml
 C:\git_repos\payg_property_portal_master\payg_property_portal_master\bin\Microsoft.Owin.Security.Twitter.xml
 C:\git_repos\payg_property_portal_master\payg_property_portal_master\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
-C:\git_repos\payg_property_portal_master\payg_property_portal_master\obj\Debug\payg_property_portal_master.csprojResolveAssemblyReference.cache
 C:\git_repos\payg_property_portal_master\payg_property_portal_master\obj\Debug\ApplicationInsights.config
 C:\git_repos\payg_property_portal_master\payg_property_portal_master\obj\Debug\payg_property_portal_master.dll
 C:\git_repos\payg_property_portal_master\payg_property_portal_master\obj\Debug\payg_property_portal_master.pdb
