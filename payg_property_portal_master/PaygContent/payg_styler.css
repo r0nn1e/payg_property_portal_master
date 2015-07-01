@@ -1,0 +1,44 @@
+﻿body {
+}
+
+.payg_web_footer_footer {
+    margin:0 0 0 0;
+    padding-top:5px;
+    color: blue;
+    text-align: center;
+    border-top: 1px purple solid;
+}
+
+.payg_footer_header {
+    border-bottom: 1px purple solid;
+    color: blue;
+    text-align: center;
+    font-size: 1.65em;
+    text-align: center;
+    margin: 2em 0 1em 0;
+}
+
+.payg_row {
+    width: 100%;
+    margin-left:50px;
+    min-height:200px;
+    margin-top:5px;
+}
+
+.payg_footer_body {
+    margin: 10px 0px 10px 0px;
+    color: blue;
+    text-align: center;
+}
+
+.side_bar {
+    margin-top: 1%;
+    float: left;
+    width: 100%;
+}
+
+.payg_side_box_header{
+    background-color:purple;
+    text-align:center;
+    color:silver;
+}

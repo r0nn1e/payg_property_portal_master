@@ -235,6 +235,13 @@
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
+    <Content Include="PaygContent\Images\bl_gradient.gif" />
+    <Content Include="PaygContent\Images\featured_1.jpg" />
+    <Content Include="PaygContent\Images\Featured_2.jpg" />
+    <Content Include="PaygContent\Images\featured_3.jpg" />
+    <Content Include="PaygContent\Images\viewingtrips.jpg" />
+    <Content Include="PaygContent\Images\wnba_logo_detail %281%29.gif" />
+    <Content Include="PaygContent\payg_styler.css" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="ApplicationInsights.config" />
